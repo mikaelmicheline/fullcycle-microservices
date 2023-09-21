@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  go_wc:
+    build: 
+      context: .
+    container_name: go_wc
+    tty: true
+    volumes:
+      - .:/go
